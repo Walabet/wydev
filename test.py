@@ -1,10 +1,10 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import seaborn as sns
-import matplotlib.pyplot as plt
-from sklearn.model_selection import train_test_split
-from imblearn.over_sampling import SMOTE
+import seaborn as sns # type: ignore
+import matplotlib.pyplot as plt # type: ignore
+from sklearn.model_selection import train_test_split # type: ignore
+from imblearn.over_sampling import SMOTE # type: ignore
 
 # Configuration Streamlit
 st.title("Analyse de Données - Diabète")
